@@ -3,9 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@rmwc/button": "^5.5.2",
+    "@rmwc/provider": "^5.5.2",
+    "@rmwc/toolbar": "5.5.2",
+    "@rmwc/top-app-bar": "5.5.2",
+    "axios": "0.19.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-redux": "7.1.0",
+    "react-router-dom": "5.0.1",
+    "react-scripts": "3.0.1",
+    "redux": "4.0.1",
+    "redux-form": "8.2.4",
+    "redux-thunk": "2.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,5 +37,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "prettier": "1.18.2",
+    "typescript": "3.5.2"
   }
 }
